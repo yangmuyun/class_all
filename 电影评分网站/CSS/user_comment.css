@@ -1,0 +1,135 @@
+
+.top_list1{
+    width: 105%;
+    height: 25px;
+    overflow: hidden;
+    border:1px solid rgb(50, 50, 51);
+    background-color:rgb(92, 92, 94);
+
+}
+.top_list1 li{
+    list-style: none;
+    float: left;
+    margin-top: -15px;
+    margin-right: 25px;
+}
+.top_list1 a{
+    color: #d5d5d5;
+    font: 12px Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+.tll{
+    width: 105%;
+    height: 80px;
+    border:1px solid #d7e0f3;
+    background-color:rgb(238, 243, 252);
+
+}
+.tll_img{
+    margin-top: 15px;
+    margin-left:230px;
+    width: 180px;
+}
+.tll_sh{
+    float: right;
+    width: 70%;
+    margin-top: -17px;
+    margin-left:0;
+
+}
+.tll_sh_inp{
+    width: 400px;
+    height: 26px;
+}
+.tll_sh_img{
+    position: relative;
+    width: 37px;
+    top: 12px;
+    left: -5px;
+}
+.tll_sh_img2{
+    position: relative;
+    top: 30px;
+    left: 70px;
+
+}
+
+
+.title{
+    font: 25px Helvetica,Arial,sans-serif;
+    color:green;
+    margin-left: 240px;
+}
+.comment-box{
+    display: flex;
+    margin-left:230px ;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f8fcf8;
+    border-radius: 5px;
+    width:650px ;
+    padding:  0 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-top: 18px;
+}
+textarea{
+    border-bottom-color: #a2a1a1;
+}
+.comments{
+    margin-top: 0;
+    margin-left: 20px;
+    font: 15px Helvetica,Arial,sans-serif;
+    color: #5d5d5d;
+
+}
+.comment-box form input[type="submit"] {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.btn{
+    width:65px;
+    height: 22px;
+    line-height: 24px;
+    border: none;
+    border-radius: 4px;
+    background-color: #348834;
+    color: white;
+}
+.right{
+    position: absolute;
+    top:200px;
+    left: 960px;
+    background-color: #f0f8f0;
+    width: 245px;
+}
+.right tr {
+    border-collapse: collapse;
+}
+.right td{
+    width: 220px;
+    padding: 5px;
+}
+.right .title{
+    font: 15px Helvetica,Arial,sans-serif;
+    margin-left: -0px;
+    color: #3377AA;
+    display: block;
+}
+.right .user_film{
+    display: block;
+    border-bottom: 1px solid #dedbdb;
+}
+.user_film a{
+    font: 13px Helvetica,Arial,sans-serif;
+    color: #666666;
+    text-decoration: none;
+}
+.right p{
+    font: 13px Helvetica,Arial,sans-serif;
+    color: #111111;
+}
+.right p a{
+    display: inline;
+    font: 13px Helvetica,Arial,sans-serif;
+    color: #3377AA;
+}

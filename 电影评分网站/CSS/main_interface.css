@@ -1,0 +1,339 @@
+.top_list1{
+    width: 105%;
+    height: 25px;
+    overflow: auto;
+    border:1px solid rgb(50, 50, 51);
+    background-color:rgb(92, 92, 94);
+
+}
+.top_list1 li{
+    list-style: none;
+    float: left;
+    margin-top: -15px;
+    margin-right: 25px;
+}
+.top_list1 a{
+    color: #d5d5d5;
+    font: 12px Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+.tll{
+    width: 105%;
+    height: 80px;
+    border:1px solid #d7e0f3;
+    background-color:rgb(238, 243, 252);
+
+}
+.tll_img{
+    margin-top: 15px;
+    margin-left:230px;
+}
+.tll_sh{
+    float: right;
+    width: 71%;
+    margin-top: -25px;
+    margin-left:0;
+
+}
+.tll_sh_inp{
+    width: 400px;
+    height: 26px;
+}
+.tll_sh_img{
+    position: relative;
+    top: 12px;
+    left: -5px;
+}
+.tll_sh_img2{
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+.top_list2{
+    width: 105%;
+    height: 38px;
+    overflow: auto;
+    background-color:rgb(238, 243, 252);
+    margin-bottom: 50px;
+}
+.top_list2 ul{
+    margin-left: 202px;
+}
+.top_list2 li{
+    list-style: none;
+    float: left;
+    margin-top: -10px;
+    margin-right: 25px;
+}
+.top_list2 a{
+    font: 14px Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #2277AA;
+}
+.back{
+    /* 100%窗口高度 */
+    width: 70%;
+    height:450px ;
+    /* 弹性布局 水平+垂直居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 190px;
+    margin-top: 50px;
+    background-color: #d5d5d5;
+}
+/* 轮播图主体 */
+.swipe{
+    /* 相对定位 */
+    position: relative;
+    width: 100%;
+    height: 450px;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+/* 模糊背景 */
+.swipe .bg{
+    /* 绝对定位 */
+    position: absolute;
+    width: 70%;
+    height: 450px;
+    z-index: 1;
+    background-image: url("../img/swipe1.bmp");
+    /* //background-size: ; */
+    background-position: center center;
+    /* 模糊滤镜 */
+    filter: blur(140px);
+}
+/* 图片区域 */
+.swipe section{
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    max-width: 1500px;
+    height: 450px;
+    /* 居中 */
+    margin: 0 auto;
+}
+/* 图片盒子 */
+.swipe .img-box{
+    width: 100%;
+    height: 100%;
+}
+/* 图片 */
+.swipe .img-box .img{
+    width: 100%;
+    height: 100%;
+    /* 保持原有尺寸比例, 裁切长边 */
+    object-fit: cover;
+}
+/* 指示器 */
+.swipe .select{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    bottom: 20px;
+    text-align: center;
+}
+.swipe .select .item{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    /* 阴影 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+/* 鼠标移入指示器 */
+.swipe .select .item:hover{
+    background-color: #ff4400;
+}
+/* 指示器选中状态 */
+.swipe .select .item.checked{
+    background-color: #ff4400;
+}
+/* 两侧翻页按钮 */
+.swipe .btn{
+    width: 40px;
+    height: 100px;
+    color: #fff;
+    /* 绝对定位 垂直居中 */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    background-color: rgba(0,0,0,0.05);
+    /* 弹性布局 居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    /* 鼠标移入光标变小手 */
+    cursor: pointer;
+    /* 动画过渡 */
+    transition: 0.3s;
+}
+.swipe .btn.left{
+    left: -60px;
+}
+.swipe .btn.right{
+    right: -60px;
+}
+.swipe .btn:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+/* 响应式 屏幕尺寸小于1620px时以下代码生效(让两个按钮移动到图片主体内部) */
+@media screen and (max-width:1620px){
+    .swipe .btn.left{
+        left: 20px;
+    }
+    .swipe .btn.right{
+        right: 20px;
+    }
+}
+.content{
+    width: 105%;
+    overflow: auto;
+    margin-top: 50px;
+    margin-right: 70px;
+
+}
+.left_content{
+    margin-left: 240px;
+    width: 43.8%;
+}
+.hot{
+    font: 16px Helvetica,Arial,sans-serif;
+    display: flex;
+    border-bottom:1px solid #dbd8d8;
+}
+.hot li{
+    list-style: none;
+    float: left;
+    margin-top: -10px;
+    margin-right: 14px;
+}
+.hot a{
+    margin-left: 10px;
+    font: 13px Tahoma;
+    text-decoration: none;
+    color: #9b9b9b;
+}
+.tag_list{
+    margin-left: -20px;
+}
+.hot .tag_list a.on,
+.hot .tag_list a.on:hover{
+    color: #111;
+}
+.tag_list_more{
+    margin-left: 35px;
+}
+
+.hot .tag_list_more a{
+    font: 13px Helvetica,Arial,sans-serif;
+    color: #3377AA;
+}
+.slide_page{
+    padding-top: 23px;
+
+}
+.slide_page .movie{
+    display: inline-block;
+    width:115px ;
+    height:180px;
+    text-align: center;
+    margin-right: 10px;
+}
+.slide_page  a.photo{
+
+    width: 115px;
+    height: 163px;
+}
+.slide_page a{
+    text-decoration: none;
+    font: 13px Helvetica,Arial,sans-serif;
+    color: #3377AA;
+}
+.slide_page .mv_name{
+    padding-bottom: 10px;
+}
+.hot_tv{
+    margin-top: 40px;
+}
+.right_content{
+    width: 32%;
+    margin-top: -980px;
+    float: right;
+}
+.weekly_ranking table{
+    margin-top: -10px;
+}
+h6{
+    width: 313px;
+    padding-bottom: 13px;
+    font: 16px Helvetica,Arial,sans-serif;
+    color: #111111;
+    margin-left: 10px;
+    border-bottom:1px solid #dbd8d8 ;
+}
+h6 a{
+    margin-left: 70px;
+    font: 13px Helvetica,Arial,sans-serif;
+    color: #3377AA;
+}
+.weekly_ranking{
+    margin-top: -10px;
+    width: 328px;
+    align-items: center;
+}
+
+.weekly_ranking .order{
+    margin-left: 3px;
+    padding:10px 0;
+    font: 14px Helvetica,Arial,sans-serif;
+
+}
+.weekly_ranking .title{
+    width: 328px;
+    padding-bottom: 5px;
+    border-bottom:1px solid #dbd8d8;
+
+}
+.weekly_ranking .title a{
+    font: 14px Helvetica,Arial,sans-serif;
+    color: #3377AA;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.hot_list ul{
+    margin-top: -10px;
+}
+.hot_list li{
+    list-style: none;
+    padding-bottom: 15px;
+    width: 288px;
+
+}
+.hot_list .title{
+    margin-left: -35px;
+    padding-bottom: 20px;
+    border-bottom:1px solid #dbd8d8;
+}
+.hot_list .title a{
+    font: 14px Helvetica,Arial,sans-serif;
+    color: #3377AA;
+    padding: 0 5px;
+    text-decoration: none;
+}
+.hot_list .title span{
+    color: #9b9b9b;
+    font: 13px Tahoma;
+    float: right;
+}
+.contact_and_cooperation li{
+    list-style: none;
+    margin-left: -30px;
+}
