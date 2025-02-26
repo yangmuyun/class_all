@@ -18,9 +18,9 @@ Game_System/Frame:游戏主体界面以及功能
   
 Login_System:登录注册界面功能
 
-  Admin.java 
+  Admin.java 管理员
   
-  AdminRegister.java 用户注册
+  AdminRegister.java 管理员信息
   
   EllipseButton.java 
   
