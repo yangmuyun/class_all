@@ -8,9 +8,9 @@ Game_System/Frame:游戏主体界面以及功能
   
   Move.jave 定义发牌时的移动动画
   
-  Order.java
+  Order.java 调整牌的位置
   
-  Player.java 
+  Player.java 玩家运行逻辑
   
   PokerOperation.java 计数功能
   
@@ -30,6 +30,6 @@ Login_System:登录注册界面功能
   
   Login_Register.java
   
-  Register.java 
+  Register.java 用户注册
   
   Start.java start按钮功能
