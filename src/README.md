@@ -28,7 +28,7 @@ Login_System:登录注册界面功能
   
   LoginFrame.java 登录界面
   
-  Login_Register.java
+  Login_Register.java 登录注册界面的连接与监听
   
   Register.java 用户注册
   
