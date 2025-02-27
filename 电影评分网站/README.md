@@ -1,4 +1,4 @@
-这个项目实现了一个电影评分网站，运用了HTML、CSS、JavaScript、jQuery、Ajax、PHP 和 MySQL 等技术知识实现了PHP连接数据库以及修改数据库，异步交互式功能，读取cookie以及前端界面设计。
+这个项目实现了一个电影评分网站，运用了HTML、CSS、JavaScript、jQuery、Ajax、PHP 和 MySQL 等技术知识实现了PHP连接数据库以及修改数据库，异步交互式功能，读取cookie以及前端界面设计。本项目有科学的管理模式，包括管理员身份认证，电影上传管理，用户评论管理以及电影信息管理。
 
 CSS文件：里面包含了多个界面的页面布局等CSS代码
 
